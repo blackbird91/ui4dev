@@ -1,0 +1,499 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Vlad Barbu [LOGO]</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">All categories <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Category 1.1</a></li>
+                            <li><a href="#">Category 1.2</a></li>
+                            <li><a href="#">Category 1.3</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Category 2.1</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Category 3.1</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form action="" class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="Search" placeholder="Search..." class="form-control" />
+                        <div class="input-group-btn">
+                            <button class="btn ">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">John Doe <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            <span class="badge">3</span> items
+                        </a>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-off"></span></a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <nav>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active">
+
+                        <ul class="nav nav-justified">
+                            <li><a href="#">Laptops, Tablets & Phones</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TV, Audio, Photo <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">TVs & Accessories</a></li>
+                                    <li><a href="#">Audio HI-FI</a></li>
+                                    <li><a href="#">Home Cinema</a></li>
+                                    <li><a href="#">Photo Cameras & Accessories</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="#">Appliances</a></li>
+                            <li><a href="#">Gaming</a></li>
+                            <li><a href="#">Smart Tech</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container-fluid">
+
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Dashboard</li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-md-2 ">
+
+                <ul class="nav nav-sidebar" role="tablist">
+                    <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                    <li class="disabled" role="presentation"><a href="#">Address Book</a></li>
+                    <li role="presentation"><a href="#orders" aria-controls="orders" role="tab" data-toggle="tab">Orders</a></li>
+                    <li role="presentation"><a href="#notifications" aria-controls="notifications" role="tab" data-toggle="tab">Notifications</a></li>
+                    <li class="disabled" role="presentation"><a href="#">Gift Cards</a></li>
+                    <li class="disabled" role="presentation"><a href="#">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-md-10">
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="profile">
+                        <div class="row">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    Change account settings, personal informations, email or password.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#infoTab" aria-controls="info" role="tab" data-toggle="tab">My information</a></li>
+                                    <li role="presentation"><a href="#passwordTab" aria-controls="passwordTab" role="tab" data-toggle="tab">Password</a></li>
+                                    <li role="presentation"><a href="#emailTab" aria-controls="emailTab" role="tab" data-toggle="tab">Email</a></li>
+                                </ul>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="tab-content">
+                                            <hr class="divider" /> 
+                                            <div role="tabpanel" class="tab-pane active" id="infoTab">
+                                                <form>
+                                                    <div class="row ">
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6 form-group">
+                                                            <label for="firstname">First name <span class="text-danger">*</span></label>
+                                                            <input type="text" class="form-control" id="firstname" placeholder="">
+                                                        </div>
+                                                        <div class="col-md-6 form-group">
+                                                            <label for="lastname">Last name <span class="text-danger">*</span></label>
+                                                            <input type="text" class="form-control" id="lastname" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12 form-group">
+                                                            <label for="address">Address <span class="text-danger">*</span></label>
+                                                            <input type="text" class="form-control" id="address" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12 form-group">
+                                                            <label for="address2">Address line 2 (optional)</label>
+                                                            <input type="text" class="form-control" id="address2" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6 form-group">
+                                                            <label for="city">City <span class="text-danger">*</span></label>
+                                                            <input type="text" class="form-control" id="city" placeholder="">
+                                                        </div>
+                                                        <div class="col-md-3 form-group">
+                                                            <label for="state">State <span class="text-danger">*</span></label>
+                                                            <select class="form-control" id="state" placeholder=""></select>
+                                                        </div>
+                                                        <div class="col-md-3 form-group">
+                                                            <label for="zipcode">Zip code</label>
+                                                            <input type="text" class="form-control" id="zipcode" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6 form-group">
+                                                            <label for="country">Country <span class="text-danger">*</span></label><span><a class="pull-right" href="#">Customs notice</a></span>
+                                                            <input type="text" class="form-control" id="country" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <p class="text-muted">Please enter your billing phone number on file with your credit card company.</p>
+                                                    <div class="row">
+                                                        <div class="col-md-6 form-group">
+                                                            <label for="phone">Phone <span class="text-danger">*</span></label>
+                                                            <input type="text" class="form-control" id="phone" placeholder="">
+                                                        </div>
+                                                        <div class="col-md-6 form-group">
+                                                            <label for="phone2">Other phone</label>
+                                                            <input type="text" class="form-control " id="phone2" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <hr class="divider" />
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-md-offset-7">
+                                                            <button type="button" class="btn btn-link">Cancel</button>
+
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <button type="submit" class="btn btn-default btn-block">Save</button>
+                                                        </div>
+                                                    </div>
+                                                </form>   
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane" id="passwordTab">
+                                                <form>
+                                                    <div class="row">
+                                                        <div class="col-md-12 form-group">
+                                                            <label for="password">Current password <span class="text-danger">*</span></label>
+                                                            <input type="password" class="form-control" id="password" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <hr class="divider">
+                                                    <div class="row">
+                                                        <div class="col-md-12 form-group">
+                                                            <label for="newpassword">New password <span class="text-danger">*</span></label><a class="pull-right" href="#">Help</a></span>
+                                                            <input type="password" class="form-control" id="newpassword" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12 form-group">
+                                                            <label for="repeatpassword">Repeat password <span class="text-danger">*</span></label>
+                                                            <input type="password" class="form-control" id="repeatpassword" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <hr class="divider" />
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-md-offset-5">
+                                                            <button type="button" class="btn btn-link">Cancel</button>
+
+                                                        </div>
+                                                        <div class="col-md-5">
+                                                            <button type="submit" class="btn btn-default btn-block">Change password</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane" id="emailTab">
+                                                <form>
+                                                    <div class="row">
+                                                        <div class="col-md-12 form-group">
+                                                            <label for="currentemail">Current email address <span class="text-danger">*</span></label>
+                                                            <input type="email" class="form-control" id="currentemail" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <hr class="divider">
+                                                    <div class="row">
+                                                        <div class="col-md-12 form-group">
+                                                            <label for="repeatemail">Repeat email address <span class="text-danger">*</span></label>
+                                                            <input type="email" class="form-control" id="repeatemail" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <hr class="divider" />  
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-md-offset-7">
+                                                            <button type="button" class="btn btn-link">Cancel</button>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <button type="submit" class="btn btn-default btn-block">Apply</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div role="tabpanel" class="tab-pane" id="orders">
+                        <h2>My Orders</h2>   
+                        <div class="row">
+                            <table class="table table-bordered text-center">
+                                <thead> 
+                                    <tr> 
+                                        <th class="text-center">Order no.</th> 
+                                        <th class="text-center">Date
+                                            <span class="glyphicon glyphicon-menu-down"> </span>
+                                            <span class="glyphicon glyphicon-filter pull-right"></span></th> 
+                                        <th class="text-center">Items</th> 
+                                        <th class="text-center">Subtotal (EUR)</th> 
+                                        <th class="text-center">Total (EUR)</th> 
+                                        <th class="text-center">Status</th> 
+                                        <th class="text-center"></th> 
+                                    </tr> 
+                                </thead> 
+                                <tbody> 
+                                    <tr> 
+                                        <td  scope="row">2002834271</td> 
+                                        <td >04.08.2016</td> 
+                                        <td >4</td> 
+                                        <td >429.00</td> 
+                                        <td >429.00</td> 
+                                        <td >Canceled</td> 
+                                        <td ><a href="#">See details</a></td> 
+                                    </tr> 
+                                    <tr> 
+                                        <td  scope="row">2002834271</td> 
+                                        <td >03.06.2016</td> 
+                                        <td >2</td> 
+                                        <td >134.00</td> 
+                                        <td >134.00</td> 
+                                        <td >Delivered</td> 
+                                        <td ><a href="#">See details</a></td> 
+                                    </tr>                                     
+                                    <tr> 
+                                        <td  scope="row">2002834271</td> 
+                                        <td >15.05.2016</td> 
+                                        <td >4</td> 
+                                        <td >192.00</td> 
+                                        <td >192.00</td> 
+                                        <td >Canceled</td> 
+                                        <td ><a href="#">See details</a></td> 
+                                    </tr>                                     
+                                    <tr> 
+                                        <td  scope="row">2002834271</td> 
+                                        <td >21.04.2016</td> 
+                                        <td >2</td> 
+                                        <td >75.00</td> 
+                                        <td >75.00</td> 
+                                        <td >Delivered</td> 
+                                        <td ><a href="#">See details</a></td> 
+                                    </tr>   
+                                    <tr> 
+                                        <td  scope="row">&nbsp;</td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                    </tr>
+                                    <tr> 
+                                        <td  scope="row">&nbsp;</td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                    </tr>
+                                    <tr> 
+                                        <td  scope="row">&nbsp;</td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                    </tr>
+                                    <tr> 
+                                        <td  scope="row">&nbsp;</td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                    </tr>
+                                    <tr> 
+                                        <td  scope="row">&nbsp;</td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                    </tr>
+                                    <tr> 
+                                        <td  scope="row">&nbsp;</td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                    </tr>
+                                    <tr> 
+                                        <td  scope="row">&nbsp;</td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                        <td ></td> 
+                                    </tr>  
+                                    <tr>
+                                        <td colspan="7" >
+                                            <ul class="pagination"> 
+                                                <li>
+                                                    <a href="#" aria-label="Previous">
+                                                        <span aria-hidden="true">«
+                                                        </span>
+                                                    </a>
+                                                </li> 
+                                                <li>
+                                                    <a href="#">1</a>
+                                                </li> 
+                                                <li>
+                                                    <a href="#">2</a>
+                                                </li> 
+                                                <li>
+                                                    <a href="#">3</a>
+                                                </li> 
+                                                <li class="disabled">
+                                                    <a href="#">...</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">9</a>
+                                                </li> 
+                                                <li>
+                                                    <a href="#" aria-label="Next">
+                                                    <span aria-hidden="true">»
+                                                    </span>
+                                                    </a>
+                                                </li> 
+                                            </ul> 
+                                        </td>
+                                    </tr>                                    
+                                </tbody> 
+                                </table>
+                        </div>            
+                    </div>
+					<div role="tabpanel" class="tab-pane" id="notifications">
+                        <h2>Notifications</h2>
+                        <p>We’ll always let you know about important changes, but you pick what else you want to hear about.</p>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Notification Settings</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <p class="col-md-12">Receive Notifications to your iPhone, iPad or Android device.</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <form class=>
+                                            <label class="checkbox-inline col-xs-12 col-sm-12 col-md-2">
+                                                <input type="checkbox" value="messages" checked/>Messages
+                                            </label>
+                                            <label class="checkbox-inline col-xs-12 col-sm-12 col-md-2">
+                                                <input type="checkbox" value="updates">Updates
+                                            </label>
+                                            <label class="checkbox-inline col-xs-12 col-sm-12 col-md-2">
+                                                <input type="checkbox" value="accountActivity">Account Activity
+                                            </label>
+                                            <label class="checkbox-inline col-xs-12 col-sm-12 col-md-2">
+                                                <input type="checkbox" value="recommendations">Recommendations
+                                            </label>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Email Settings</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <p>I want to recieve:</p>
+                                        <small class="text-muted">You can disable these at any time.</small>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <form>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="general" checked> General promotions, updates, news or general promotions for partner campaigns and services, user surveys
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="review"> Review reminders
+                                                </label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>               
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="scripts/jquery-3.1.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
